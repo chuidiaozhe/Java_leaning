@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaDaiMa.iml" filepath="$PROJECT_DIR$/JavaDaiMa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaThread/JavaThread.iml" filepath="$PROJECT_DIR$/JavaThread/JavaThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kotlin/Kotlin.iml" filepath="$PROJECT_DIR$/Kotlin/Kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RxJava/RxJava.iml" filepath="$PROJECT_DIR$/RxJava/RxJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sockets/Sockets.iml" filepath="$PROJECT_DIR$/Sockets/Sockets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadPool/ThreadPool.iml" filepath="$PROJECT_DIR$/ThreadPool/ThreadPool.iml" />
+    </modules>
+  </component>
+</project>
