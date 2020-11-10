@@ -1,4 +1,5 @@
 package threadstop;
+
 /**
  * 参考文章 https://blog.csdn.net/qq_37438740/article/details/81556733
  * */
@@ -8,9 +9,9 @@ public class MyThread_1 extends Thread {
     public void run() {
         super.run();
         for (int i = 0; i < 10000 ; i++) {
-            System.out.println("i="+(i+1));
+             System.out.println("i="+(i+1) );
         }
-    }
+     }
 }
 
      class TestDemo1{

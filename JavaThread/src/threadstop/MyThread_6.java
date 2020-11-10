@@ -1,7 +1,10 @@
 package threadstop;
 
+import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.Executors;
+
 public class MyThread_6 extends Thread {
-    @Override
+     @Override
     public void run() {
         super.run();
         while (true){
@@ -10,13 +13,15 @@ public class MyThread_6 extends Thread {
                 return;
             }
             System.out.println("timer = " + System.currentTimeMillis());
-        }
+
+         }
     }
 }
 
 
 class main6{
     public static void main(String[] args){
+        Executors.newSingleThreadExecutor();
         try {
             MyThread_6 thread = new MyThread_6();
             thread.start();
